@@ -585,16 +585,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"homeassistant-weather-icons@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "homeassistant-weather-icons@workspace:."
-  dependencies:
-    "@rollup/plugin-json": "npm:^6.1.0"
-    rollup: "npm:^4.24.0"
-    svgo: "npm:^3.3.2"
-  languageName: unknown
-  linkType: soft
-
 "http-cache-semantics@npm:^4.1.1":
   version: 4.1.1
   resolution: "http-cache-semantics@npm:4.1.1"
@@ -702,6 +692,16 @@ __metadata:
   checksum: 10c0/4f907fb78d7b712e11dea8c165fe0921f81a657d3443dde75359ed52eb2b5d33ce6773d97985a089f09a65edd80b11cb75c767b57ba47391fee4c969f7215c96
   languageName: node
   linkType: hard
+
+"lovelace-full-icons@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "lovelace-full-icons@workspace:."
+  dependencies:
+    "@rollup/plugin-json": "npm:^6.1.0"
+    rollup: "npm:^4.24.0"
+    svgo: "npm:^3.3.2"
+  languageName: unknown
+  linkType: soft
 
 "lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.4.3
