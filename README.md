@@ -22,21 +22,20 @@ This plugin provides weather icons that are part of Home Assitant, but in a form
 
 The list of icons is:
 
-| Name                  | Icon                                                        |
-| --------------------- | ----------------------------------------------------------- |
-| wi:clear-night        | ![Icon wi:clear-night       ](./svg/clear-night.svg       ) |
-| wi:cloudy             | ![Icon wi:cloudy            ](./svg/cloudy.svg            ) |
-| wi:fog                | ![Icon wi:fog               ](./svg/fog.svg               ) |
-| wi:hail               | ![Icon wi:hail              ](./svg/hail.svg              ) |
-| wi:lightning-rainy    | ![Icon wi:lightning-rainy   ](./svg/lightning-rainy.svg   ) |
-| wi:lightning          | ![Icon wi:lightning         ](./svg/lightning.svg         ) |
-| wi:partlycloudy-night | ![Icon wi:partlycloudy-night](./svg/partlycloudy-night.svg) |
-| wi:partlycloudy       | ![Icon wi:partlycloudy      ](./svg/partlycloudy.svg      ) |
-| wi:pouring            | ![Icon wi:pouring           ](./svg/pouring.svg           ) |
-| wi:rainy              | ![Icon wi:rainy             ](./svg/rainy.svg             ) |
-| wi:snowy-rainy        | ![Icon wi:snowy-rainy       ](./svg/snowy-rainy.svg       ) |
-| wi:snowy              | ![Icon wi:snowy             ](./svg/snowy.svg             ) |
-| wi:sunny              | ![Icon wi:sunny             ](./svg/sunny.svg             ) |
-| wi:windy-variant      | ![Icon wi:windy-variant     ](./svg/windy-variant.svg     ) |
-| wi:windy              | ![Icon wi:windy             ](./svg/windy.svg             ) |
-
+| Name                    | Icon                                                        |
+| ----------------------- | ----------------------------------------------------------- |
+| `wi:clear-night`        | ![Icon wi:clear-night       ](./svg/clear-night.svg       ) |
+| `wi:cloudy`             | ![Icon wi:cloudy            ](./svg/cloudy.svg            ) |
+| `wi:fog`                | ![Icon wi:fog               ](./svg/fog.svg               ) |
+| `wi:hail`               | ![Icon wi:hail              ](./svg/hail.svg              ) |
+| `wi:lightning-rainy`    | ![Icon wi:lightning-rainy   ](./svg/lightning-rainy.svg   ) |
+| `wi:lightning`          | ![Icon wi:lightning         ](./svg/lightning.svg         ) |
+| `wi:partlycloudy-night` | ![Icon wi:partlycloudy-night](./svg/partlycloudy-night.svg) |
+| `wi:partlycloudy`       | ![Icon wi:partlycloudy      ](./svg/partlycloudy.svg      ) |
+| `wi:pouring`            | ![Icon wi:pouring           ](./svg/pouring.svg           ) |
+| `wi:rainy`              | ![Icon wi:rainy             ](./svg/rainy.svg             ) |
+| `wi:snowy-rainy`        | ![Icon wi:snowy-rainy       ](./svg/snowy-rainy.svg       ) |
+| `wi:snowy`              | ![Icon wi:snowy             ](./svg/snowy.svg             ) |
+| `wi:sunny`              | ![Icon wi:sunny             ](./svg/sunny.svg             ) |
+| `wi:windy-variant`      | ![Icon wi:windy-variant     ](./svg/windy-variant.svg     ) |
+| `wi:windy`              | ![Icon wi:windy             ](./svg/windy.svg             ) |
