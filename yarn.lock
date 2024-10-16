@@ -693,9 +693,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lovelace-full-icons@workspace:.":
+"lovelace-weather-icons@workspace:.":
   version: 0.0.0-use.local
-  resolution: "lovelace-full-icons@workspace:."
+  resolution: "lovelace-weather-icons@workspace:."
   dependencies:
     "@rollup/plugin-json": "npm:^6.1.0"
     rollup: "npm:^4.24.0"

@@ -1,5 +1,5 @@
 {
-  "name": "lovelace-full-icons",
+  "name": "lovelace-weather-icons",
   "packageManager": "yarn@4.5.0",
   "devDependencies": {
     "@rollup/plugin-json": "^6.1.0",
