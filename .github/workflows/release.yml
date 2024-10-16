@@ -26,3 +26,10 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: /home/runner/work/lovelace-full-icons/lovelace-full-icons/dist/full-icons.js
           overwrite: true
+
+      # Validate the release
+      - name: HACS Validation
+        uses: "hacs/action@main"
+        with:
+          category: "plugin"
+
