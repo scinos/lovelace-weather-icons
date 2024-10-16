@@ -1,4 +1,4 @@
-import { default as icons } from "../build/map.json";
+import { default as icons } from "../svg/map.json";
 
 async function getIcon(name) {
   if (!(name in icons)) {
@@ -15,10 +15,10 @@ async function getIconList() {
 }
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["fi"] = getIcon;
+window.customIconsets["wi"] = getIcon;
 
 window.customIcons = window.customIcons || {};
-window.customIcons["fi"] = { getIcon, getIconList };
+window.customIcons["wi"] = { getIcon, getIconList };
 
 // Fullcolor support patch
 customElements.whenDefined("ha-icon").then((HaIcon) => {

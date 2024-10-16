@@ -24,4 +24,4 @@ jobs:
     - name: HACS Validation
       uses: "hacs/action@main"
       with:
-        category: "plugin"
+        category: "dashboard"

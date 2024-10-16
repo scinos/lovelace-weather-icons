@@ -8,6 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "./gen.sh"
+    "gen-svg": "./gen-svg.sh",
+    "build": "rollup --config rollup.config.js"
   }
 }
