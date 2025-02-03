@@ -39,3 +39,23 @@ The list of icons is:
 | `wi:sunny`              | ![Icon wi:sunny             ](./svg/sunny.svg             ) |
 | `wi:windy-variant`      | ![Icon wi:windy-variant     ](./svg/windy-variant.svg     ) |
 | `wi:windy`              | ![Icon wi:windy             ](./svg/windy.svg             ) |
+
+## Contribute
+
+### Development
+
+To start the proyect in dev mode, run `yarn dev`. This will compile the proyect every time there are changes,
+and serve it on port 10001. Then, go to a Home Assistant instance and add a new resource to the dashboard, with
+the URL `http://<your-ip>:10001/weather-icons.js`
+
+To contribute, create a fork of the repository and create PRs with your changes.
+
+### Production
+
+Run `yarn build`. This will generate the bundled file in `dist`. Copy it over to your Home Assistant instance (or
+serve it via HTTP), add it as a script resource to a dashboard and reload the dashboard.
+
+### Release
+
+After a successful merge to `main`, create a release in GitHub. Fill the release notes and version as appropiate. Once
+the release is created, a GitHub Workflow will compile the proyect and attach the bundle to the release as a downloadable file.

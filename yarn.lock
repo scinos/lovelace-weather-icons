@@ -699,6 +699,7 @@ __metadata:
   dependencies:
     "@rollup/plugin-json": "npm:^6.1.0"
     rollup: "npm:^4.24.0"
+    rollup-plugin-serve: "npm:^1.1.1"
     svgo: "npm:^3.3.2"
   languageName: unknown
   linkType: soft
@@ -741,6 +742,15 @@ __metadata:
   version: 2.0.30
   resolution: "mdn-data@npm:2.0.30"
   checksum: 10c0/a2c472ea16cee3911ae742593715aa4c634eb3d4b9f1e6ada0902aa90df13dcbb7285d19435f3ff213ebaa3b2e0c0265c1eb0e3fb278fda7f8919f046a410cd9
+  languageName: node
+  linkType: hard
+
+"mime@npm:^2":
+  version: 2.6.0
+  resolution: "mime@npm:2.6.0"
+  bin:
+    mime: cli.js
+  checksum: 10c0/a7f2589900d9c16e3bdf7672d16a6274df903da958c1643c9c45771f0478f3846dcb1097f31eb9178452570271361e2149310931ec705c037210fc69639c8e6c
   languageName: node
   linkType: hard
 
@@ -900,6 +910,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"opener@npm:1":
+  version: 1.5.2
+  resolution: "opener@npm:1.5.2"
+  bin:
+    opener: bin/opener-bin.js
+  checksum: 10c0/dd56256ab0cf796585617bc28e06e058adf09211781e70b264c76a1dbe16e90f868c974e5bf5309c93469157c7d14b89c35dc53fe7293b0e40b4d2f92073bc79
+  languageName: node
+  linkType: hard
+
 "p-map@npm:^4.0.0":
   version: 4.0.0
   resolution: "p-map@npm:4.0.0"
@@ -968,6 +987,16 @@ __metadata:
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
   checksum: 10c0/59933e8501727ba13ad73ef4a04d5280b3717fd650408460c987392efe9d7be2040778ed8ebe933c5cbd63da3dcc37919c141ef8af0a54a6e4fca5a2af177bfe
+  languageName: node
+  linkType: hard
+
+"rollup-plugin-serve@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "rollup-plugin-serve@npm:1.1.1"
+  dependencies:
+    mime: "npm:^2"
+    opener: "npm:1"
+  checksum: 10c0/afe8080056f3752fb54f7856e83d786eead72f34f5332d2ebdb97c07d6f130ffa66c1d4973cc664aea9bfcd09ccb2cf95fad2f5c072fefb78445a619d574e186
   languageName: node
   linkType: hard
 
